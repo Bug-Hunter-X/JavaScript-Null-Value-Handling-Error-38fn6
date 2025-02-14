@@ -1,0 +1,3 @@
+# JavaScript Null Value Handling Error
+
+This repository demonstrates a common error in JavaScript: improper handling of null values when performing arithmetic operations. The code provided shows a function that adds two numbers; however, it doesn't gracefully handle null inputs, leading to potential issues. The solution file provides an improved version with better error handling.  The improved version handles null values explicitly, using the nullish coalescing operator (`??`) to provide default values for null or undefined inputs. This ensures the function always produces a valid result regardless of the input values.
